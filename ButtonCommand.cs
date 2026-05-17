@@ -8,7 +8,7 @@ namespace YMM4_Snipping_Tool {
 
         private readonly MainViewModel mainViewModel_;
         public ICommand ScreenshotCommand { get; private set; }
-        public static ScreenshotWindow? ScreenshotWindow { get; private set; }
+        public static ScreenshotWindow? ScreenshotWindow { get; set; }
 
         public ButtonCommand(MainViewModel mainViewModel) {
             this.mainViewModel_ = mainViewModel;

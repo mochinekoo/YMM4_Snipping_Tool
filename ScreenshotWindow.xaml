@@ -11,7 +11,6 @@
         WindowStyle="None"
         WindowState="Maximized"
         MouseDown="RunMouseDown"
-        MouseLeave="RunMouseLeave"
         KeyDown="RunShiftDown"
         d:DataContext="{d:DesignInstance Type=local:MainViewModel}">
     <Grid Name="RootGrid">

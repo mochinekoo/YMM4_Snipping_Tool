@@ -18,6 +18,7 @@ namespace YMM4_Snipping_Tool {
     public partial class MainWindow : UserControl {
         public MainWindow() {
             InitializeComponent();
+            ScreenshotWindow.mainWindow_ = this;
         }
     }
 }

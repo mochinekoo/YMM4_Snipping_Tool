@@ -26,6 +26,6 @@
                 Height="50"
                 Content="保存する" FontSize="30"/>
 
-        <Image Grid.ColumnSpan="2" Grid.Row="1" />    
+        <Image Name="ViewImage" Grid.ColumnSpan="2" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" />    
     </Grid>
 </UserControl>
