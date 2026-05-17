@@ -5,12 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:YMM4_Snipping_Tool"
         mc:Ignorable="d"
-        Title="ScreenshotWindow" Height="450" Width="800" Topmost="True"
-        Background="Transparent"
+        Title="ScreenshotWindow" Height="450" Width="800"
+        Opacity="0.5"
         AllowsTransparency="True"
         WindowStyle="None"
-        WindowState="Maximized">
-    <Grid>
-        
+        WindowState="Maximized"
+        MouseDown="RunMouseDown"
+        MouseLeave="RunMouseLeave"
+        KeyDown="RunShiftDown"
+        d:DataContext="{d:DesignInstance Type=local:MainViewModel}">
+    <Grid Name="RootGrid">
+        <Canvas Name="MainCanvas"></Canvas>
     </Grid>
 </Window>

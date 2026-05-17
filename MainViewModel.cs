@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Text;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Shapes;
+using Rectangle = System.Windows.Shapes.Rectangle;
 
 namespace YMM4_Snipping_Tool {
     internal class MainViewModel {
@@ -13,5 +17,6 @@ namespace YMM4_Snipping_Tool {
         }
 
         public ButtonCommand ButtonCommand { get; set; }
+
     }
 }
